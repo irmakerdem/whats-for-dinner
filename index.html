@@ -11,11 +11,11 @@
     <section class="main-section">
       <section class="container1">
         <h2>What are you looking for?<span>*</span></h2>
-          <input type="radio" id="side" name="meal-options" value="Side">
+          <input type="radio" id="side" name="meal-options" value="sidesV">
           <label for="side">Side</label><br>
-          <input type="radio" id="mainDish" name="meal-options" value="Main Dish">
+          <input type="radio" id="mainDish" name="meal-options" value="mainsV">
           <label for="main-dish">Main Dish</label><br>
-          <input type="radio" id="dessert" name="meal-options" value="Dessert">
+          <input type="radio" id="dessert" name="meal-options" value="dessertsV">
           <label for="main-dish">Dessert</label><br>
           <input type="radio" id="entireMeal" name="meal-options" value="Entire Meal">
           <label for="entire-meal">Entire Meal</label><br>
@@ -23,7 +23,15 @@
       </section>
       <section class="container2">
         <img class="pot-img" src="./assets/cookpot.svg" alt="outline of pot with lid">
-        <!-- <button type="button" class="clear-button">CLEAR</button> -->
+        <button type="button" class="clear-button">CLEAR</button>
+        <section class="meal-display-container">
+        </section>
+          <section class="meal-title-display">
+            <label class="meal-title-text">You should make:</label>
+          </section>
+        <section class="random-meal-display">
+          <label class="random-meal-text"></label>
+        </section>
       </section>
     </section>
   </body>
