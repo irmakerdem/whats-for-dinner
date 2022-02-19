@@ -21,25 +21,43 @@ function getRecipe() {
     return
   }
     if (grabRadio.value === "sidesV") {
-      return getRandomElement(sides)
+      return `${getRandomElement(sides)}!`
     }
     else if (grabRadio.value === "mainsV") {
-      return getRandomElement(mains)
+      return `${getRandomElement(mains)}!`
     }
     else if (grabRadio.value === "dessertsV") {
-      return getRandomElement(desserts)
+      return `${getRandomElement(desserts)}!`
     }
+  displayMeal();
 }
-// console.log(getRecipe());
+
+letsCookButton.addEventListener('click', displayMeal);
 
 
+function show(element) {
+  element.classList.remove('hidden');
+};
 
-//choose one radio button (side, main dish, or dessert)
+function hide(element) {
+  element.classList.add('hidden');
+};
 
-//dont forget exclamation point!!
+function displayMeal() {
+  event.preventDefault();
+  hide(potImage);
+  show(mealTitleText);
+  show(clearButton);
+  randomMealText.innerText = getRecipe();
+}
 
+//feature/select-entire-meal-option
+//select Entire Meal radio button
 //click cook-button
 //hide pot-img
-//show string ‘You should make: ${}!’
-  //result should be a random dish from array (based on radio chosen)
+//show string ‘You should make: ${} with a side of ${} and ${} for dessert!’
+  //choose random 3 dishes from array (one of each kind)
 //show clear-button
+
+
+//feature/create-readme
