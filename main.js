@@ -47,6 +47,7 @@ function displayMeal() {
   event.preventDefault();
   hide(potImage);
   show(mealTitleText);
+  show(randomMealText);
   show(clearButton);
   randomMealText.innerText = getRecipe();
 }
