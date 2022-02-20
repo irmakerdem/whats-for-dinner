@@ -4,7 +4,6 @@
 - [Introduction](#introduction)
 - [Technologies](#technologies)
 - [Features](#features)
-- [Illustrations](#illustrations)
 - [Deploy Link](#deploy-link)
 - [Future Extensions](#future-extensions)
 - [Set Up](#set-up)
@@ -26,7 +25,6 @@ The goal of this project was to use a comp to create an identical website with f
 - User can see a random whole meal based on selecting an entire meal option
 - Functionality is maintained regardless of which option is chosen
 
-## Illustrations
 ![What's For Dinner](https://media.giphy.com/media/aGuagST06vSaHV6v7s/giphy.gif)
 
 ## Deploy Link
