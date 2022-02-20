@@ -1,23 +1,50 @@
 # What's for Dinner?
 
-## Overview
+## Table of Contents
+- [Introduction](#introduction)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Illustrations](#illustrations)
+- [Deploy Link](#deploy-link)
+- [Future Extensions](#future-extensions)
+- [Set Up](#set-up)
+- [Contributors](#contributors)
+- [Project Specifications](#project-specifications)
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
+## Introduction
+- Don't know what to make for dinner tonight? Use this website to randomize your meal options depending on what you want to eat (a side, a main dish, dessert or even all 3!)
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+- The goal of this project was to use a comp to create an identical website with functionality.
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
+## Technologies
+- JavaScript
+- HTML
+- CSS
 
-## Learning Goals
+## Features
+- User can see a random meal based on selecting a single side, main or dessert option
+- User can see a random whole meal based on selecting an entire meal option
+- Functionality is maintained regardless of which option is chosen
 
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
+## Illustrations
+![What's For Dinner gif](https://media.giphy.com/media/JYBFU4eHtYDiOhmlGM/giphy.gif)
 
-## Setup
+## Deploy Link
+- Check out my project on [this](https://irmakerdem.github.io/whats-for-dinner/) page!
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+## Future Extensions
+- User can click clear button and bring back pot image
+- User cannot click "Let's Cook!" button unless an option is selected
+- User can add a recipe
+
+## Set Up
+1. Fork this repository by going to ```https://github.com/irmakerdem/whats-for-dinner ```.
+2. Clone the repository to your local machine using the SSH code.
+3. ```cd``` into the repository.
+4. View the project in the browser (Google Chrome preferred) by running ```open index.html``` in your terminal.
+
+## Contributors
+- Irmak Erdem - https://github.com/irmakerdem
+
+## Project Specifications
+- The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html).
