@@ -7,7 +7,8 @@ var mealTitleText = document.querySelector(".meal-title-text");
 var randomMealText = document.querySelector(".random-meal-text");
 var potImage = document.querySelector(".pot-img");
 var clearButton = document.querySelector(".clear-button");
-var entireMealOption = document.querySelector("#entireMeal");
+
+letsCookButton.addEventListener('click', displayMeal);
 
 function getRandomElement(array) {
   return array[Math.floor(Math.random()*array.length)]
@@ -32,9 +33,6 @@ function getRecipe() {
     }
     displayMeal();
 }
-
-letsCookButton.addEventListener('click', displayMeal);
-entireMealRadio.addEventListener('click', showAllMeals);
 
 function show(element) {
   element.classList.remove('hidden');
