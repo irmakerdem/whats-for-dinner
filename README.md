@@ -27,7 +27,7 @@ The goal of this project was to use a comp to create an identical website with f
 - Functionality is maintained regardless of which option is chosen
 
 ## Illustrations
-  ![Whats For Dinner](https://media.giphy.com/media/JYBFU4eHtYDiOhmlGM/giphy.gif)
+![What's For Dinner](https://media.giphy.com/media/aGuagST06vSaHV6v7s/giphy.gif)
 
 ## Deploy Link
 - Check out my project on [this](https://irmakerdem.github.io/whats-for-dinner) page!
