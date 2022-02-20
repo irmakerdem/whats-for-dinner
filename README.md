@@ -23,7 +23,7 @@ The goal of this project was to use a comp to create an identical website with f
 ## Features
 - User can see a random meal based on selecting a single side, main or dessert option
 - User can see a random whole meal based on selecting an entire meal option
-- Functionality is maintained regardless of which option is chosen
+- Functionality is maintained regardless of which option is chosen.
 
 ![What's For Dinner](https://media.giphy.com/media/aGuagST06vSaHV6v7s/giphy.gif)
 
