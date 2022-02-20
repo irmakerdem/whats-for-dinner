@@ -27,8 +27,6 @@ The goal of this project was to use a comp to create an identical website with f
 - Functionality is maintained regardless of which option is chosen
 
 ## Illustrations
-- See gif below for preview
-
 ![Whats For Dinner](https://media.giphy.com/media/JYBFU4eHtYDiOhmlGM/giphy.gif)
 
 ## Deploy Link
