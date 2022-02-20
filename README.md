@@ -25,11 +25,7 @@ The goal of this project was to use a comp to create an identical website with f
 - User can see a random whole meal based on selecting an entire meal option
 - Functionality is maintained regardless of which option is chosen.
 
-![cat](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/VAN_CAT.png/1280px-VAN_CAT.png)
-
-![What's For Dinner](https://media.giphy.com/media/aGuagST06vSaHV6v7s/giphy.gif)
-
-![Creating a New Cover](https://media.giphy.com/media/2HFtW3WV1m5J0jOgxa/giphy.gif)
+![What's For Dinner](https://media.giphy.com/media/BZz9u3e9D2TjFOEMvZ/giphy.gif)
 
 ## Deploy Link
 - Check out my project on [this](https://irmakerdem.github.io/whats-for-dinner) page!
