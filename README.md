@@ -29,6 +29,8 @@ The goal of this project was to use a comp to create an identical website with f
 
 ![What's For Dinner](https://media.giphy.com/media/aGuagST06vSaHV6v7s/giphy.gif)
 
+![Creating a New Cover](https://media.giphy.com/media/2HFtW3WV1m5J0jOgxa/giphy.gif)
+
 ## Deploy Link
 - Check out my project on [this](https://irmakerdem.github.io/whats-for-dinner) page!
 
