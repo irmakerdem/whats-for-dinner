@@ -12,9 +12,9 @@
 - [Project Specifications](#project-specifications)
 
 ## Introduction
-- Don't know what to make for dinner tonight? Use this website to randomize your meal options depending on what you want to eat (a side, a main dish, dessert or even all 3!)
+Don't know what to make for dinner tonight? Use this website to randomize your meal options depending on what you want to eat (a side, a main dish, dessert or even all 3!).
 
-- The goal of this project was to use a comp to create an identical website with functionality.
+The goal of this project was to use a comp to create an identical website with functionality.
 
 ## Technologies
 - JavaScript
@@ -30,7 +30,7 @@
 ![What's For Dinner gif](https://media.giphy.com/media/JYBFU4eHtYDiOhmlGM/giphy.gif)
 
 ## Deploy Link
-- Check out my project on [this](https://irmakerdem.github.io/whats-for-dinner/) page!
+- Check out my project on [this](https://irmakerdem.github.io/whats-for-dinner) page!
 
 ## Future Extensions
 - User can click clear button and bring back pot image
