@@ -38,7 +38,7 @@ The goal of this project was to use a comp to create an identical website with f
 - User can add a recipe
 
 ## Set Up
-1. Fork this repository by going to ```https://github.com/irmakerdem/whats-for-dinner ```.
+1. Fork this repository by going to ```https://github.com/irmakerdem/whats-for-dinner```.
 2. Clone the repository to your local machine using the SSH code.
 3. ```cd``` into the repository.
 4. View the project in the browser (Google Chrome preferred) by running ```open index.html``` in your terminal.
