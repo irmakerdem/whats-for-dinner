@@ -2,22 +2,20 @@ var sides = ['Miso Glazed Carrots', 'Coleslaw', 'Garden Salad', 'Crispy Potatoes
 var mains = ['Spaghetti and Meatballs', 'Pineapple Chicken', 'Shakshuka', 'Thai Yellow Curry', 'Bibimbap', 'Chicken Parmesan', 'Butternut Squash Soup', 'BBQ Chicken Burgers', 'Ramen', 'Empanadas', 'Chicken Fried Rice', 'Sheet Pan Fajitas', 'Margarita Pizza'];
 var desserts = ['Apple Pie', 'Lemon Meringue Pie', 'Black Forest Cake', 'Banana Bread', 'Peach Cobbler', 'Cheesecake', 'Funfetti Cake', 'Baklava', 'Flan', 'Macarons', 'Macaroons', 'Chocolate Cupcakes', 'Pavlova', 'Pumpkin Pie', 'Key Lime Pie', 'Tart Tatin', 'Croissants', 'Eclairs'];
 
-//create global variables
 var letsCookButton = document.querySelector(".cook-button");
 var mealTitleText = document.querySelector(".meal-title-text");
 var randomMealText = document.querySelector(".random-meal-text");
 var potImage = document.querySelector(".pot-img");
 var clearButton = document.querySelector(".clear-button");
+var entireMealOption = document.querySelector("#entireMeal");
 
 function getRandomElement(array) {
   return array[Math.floor(Math.random()*array.length)]
 }
-//outputs value of the index
 
 function getRecipe() {
   var grabRadio = document.querySelector('input[name="meal-options"]:checked');
   if (!grabRadio) {
-    // console.log("truthy");
     return
   }
     if (grabRadio.value === "sidesV") {
@@ -29,11 +27,14 @@ function getRecipe() {
     else if (grabRadio.value === "dessertsV") {
       return `${getRandomElement(desserts)}!`
     }
-  displayMeal();
+    else if (grabRadio.value === "entireV") {
+      return `${getRandomElement(mains)} with a side of ${getRandomElement(desserts)} and ${getRandomElement(desserts)} for dessert!`
+    }
+    displayMeal();
 }
 
 letsCookButton.addEventListener('click', displayMeal);
-
+entireMealRadio.addEventListener('click', showAllMeals);
 
 function show(element) {
   element.classList.remove('hidden');
@@ -51,14 +52,3 @@ function displayMeal() {
   show(clearButton);
   randomMealText.innerText = getRecipe();
 }
-
-//feature/select-entire-meal-option
-//select Entire Meal radio button
-//click cook-button
-//hide pot-img
-//show string ‘You should make: ${} with a side of ${} and ${} for dessert!’
-  //choose random 3 dishes from array (one of each kind)
-//show clear-button
-
-
-//feature/create-readme
