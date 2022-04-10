@@ -11,8 +11,8 @@ var clearButton = document.querySelector(".clear-button");
 letsCookButton.addEventListener('click', displayMeal);
 
 function getRandomElement(array) {
-  return array[Math.floor(Math.random()*array.length)]
-}
+  return array[Math.floor(Math.random()*array.length)];
+};
 
 function getRecipe() {
   var grabRadio = document.querySelector('input[name="meal-options"]:checked');
@@ -20,19 +20,19 @@ function getRecipe() {
     return
   }
     if (grabRadio.value === "sidesV") {
-      return `${getRandomElement(sides)}!`
+      return `${getRandomElement(sides)}!`;
     }
     else if (grabRadio.value === "mainsV") {
-      return `${getRandomElement(mains)}!`
+      return `${getRandomElement(mains)}!`;
     }
     else if (grabRadio.value === "dessertsV") {
-      return `${getRandomElement(desserts)}!`
+      return `${getRandomElement(desserts)}!`;
     }
     else if (grabRadio.value === "entireV") {
-      return `${getRandomElement(mains)} with a side of ${getRandomElement(desserts)} and ${getRandomElement(desserts)} for dessert!`
+      return `${getRandomElement(mains)} with a side of ${getRandomElement(desserts)} and ${getRandomElement(desserts)} for dessert!`;
     }
     displayMeal();
-}
+};
 
 function show(element) {
   element.classList.remove('hidden');
@@ -49,4 +49,4 @@ function displayMeal() {
   show(randomMealText);
   show(clearButton);
   randomMealText.innerText = getRecipe();
-}
+};
