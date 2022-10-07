@@ -2,11 +2,11 @@ var sides = ['Miso Glazed Carrots', 'Coleslaw', 'Garden Salad', 'Crispy Potatoes
 var mains = ['Spaghetti and Meatballs', 'Pineapple Chicken', 'Shakshuka', 'Thai Yellow Curry', 'Bibimbap', 'Chicken Parmesan', 'Butternut Squash Soup', 'BBQ Chicken Burgers', 'Ramen', 'Empanadas', 'Chicken Fried Rice', 'Sheet Pan Fajitas', 'Margarita Pizza'];
 var desserts = ['Apple Pie', 'Lemon Meringue Pie', 'Black Forest Cake', 'Banana Bread', 'Peach Cobbler', 'Cheesecake', 'Funfetti Cake', 'Baklava', 'Flan', 'Macarons', 'Macaroons', 'Chocolate Cupcakes', 'Pavlova', 'Pumpkin Pie', 'Key Lime Pie', 'Tart Tatin', 'Croissants', 'Eclairs'];
 
-var letsCookButton = document.querySelector(".cook-button");
-var mealTitleText = document.querySelector(".meal-title-text");
-var randomMealText = document.querySelector(".random-meal-text");
-var potImage = document.querySelector(".pot-img");
-var clearButton = document.querySelector(".clear-button");
+var letsCookButton = document.querySelector('.cook-button');
+var mealTitleText = document.querySelector('.meal-title-text');
+var randomMealText = document.querySelector('.random-meal-text');
+var potImage = document.querySelector('.pot-img');
+var clearButton = document.querySelector('.clear-button');
 
 letsCookButton.addEventListener('click', displayMeal);
 
